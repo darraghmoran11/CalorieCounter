@@ -1,0 +1,2 @@
+# CalorieCounter
+This is a simple web application used to determine the number of calories burned and consumed by an individual in a given day. The user simply inputs any calories consumed and calories burned during exercise. A Basal Metabolic Rate calculation is carried out to determine the number of calories required to keep your body functioning at rest. Based on BMR and calories burned during exercise the user can monitor how many calories a day you need to maintain or lose weight.
