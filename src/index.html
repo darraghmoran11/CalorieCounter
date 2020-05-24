@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<title>Calorie Counter</title>
+	</head>
+	<body>
+
+		<div class ="top">
+			<div class="counter">
+				<div class="counter__title">
+					Calories remaining on the <span class="counter__title--date">%Date%</span>:
+				</div>
+				<div class="counter__value">+ 234.56</div>
+
+				<div class="counter__burner clearfix">
+					<div class="counter__burner--text">Calories Burned</div>
+					<div class="right">
+          	<div class="counter__burner--value">+ 4,300.00</div>
+            <div class="counter__burner--percentage">&nbsp;</div>
+          </div>
+        </div>
+
+        <div class="counter__consumed clearfix">
+					<div class="counter__consumed--text">Calories Consumed</div>
+					<div class="right">
+          	<div class="counter__consumed--value">- 2,500.00</div>
+            <div class="counter__consumed--percentage">90%</div>
+          </div>
+        </div>
+			</div>
+		</div>
+
+		<div class="bottom">
+
+			<div class="bmr">
+				<h2 class="bmr__title">BMR Calculator</h2>
+				<div class="age">
+					<label> Age : </label>
+					<input type="number" min="1" max="120"/>
+				</div>
+				<div class="gender">
+					<label> Gender : </label>
+					<select class="gender">
+						<option value="male" selected>Male</option>
+						<option value="female">Female</option>
+					</select>
+				</div>
+				<div class="height">
+					<label> Height : </label>
+					<input type="number" min="0"/>
+					<label> cm</label>
+				</div>
+				<div class="weight">
+					<label> Weight : </label>
+					<input type="number" min="0"/>
+					<label> kgs</label>
+				</div>
+				<div class="calcButton">
+					<input type="submit" value="Calculate BMR"/>
+				</div>
+				<div class="bmrResult">
+					
+				</div>
+			</div>
+
+			<div class="container clearfix">
+				<div class="burned">
+					<h2 class="burned__title">Calories Burned</h2>
+
+					<div class="burned__list">
+					</div>
+				</div>
+
+				<div class="consumed">
+					<h2 class="consumed__title">Calories Consumed</h2>
+
+					<div class="consumed__list">
+					</div>
+				</div>
+
+		</div>
+	</body>
+</html>

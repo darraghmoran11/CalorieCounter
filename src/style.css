@@ -1,0 +1,116 @@
+/*****************************
+********* GENERAL ************
+*****************************/
+
+
+
+
+
+/*****************************
+*********   TOP   ************
+*****************************/
+
+.top {
+	height: 40vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(../static/back.png);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.counter {
+	position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.counter__title {
+	font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.counter__value {
+	font-weight: 300;
+    font-size: 46px;
+	text-align: center;
+	margin-bottom: 25px;
+	letter-spacing: 2px;
+}
+
+.counter__burner,
+.counter__consumed {
+	padding: 10px;
+    text-transform: uppercase;
+}
+
+/****************************
+********** BOTTOM ***********
+****************************/
+
+/********** BMR ************/
+
+.bmr {
+	margin-top: 5px;
+	text-align: center;
+	padding: 14px;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: #f7f7f7;
+}
+
+.age {
+
+}
+
+.gender {
+	margin-top: 5px;
+}
+
+.height {
+	margin-top: 5px;
+}
+
+.weight {
+	margin-top: 5px;
+}
+
+.calcButton {
+	margin-top: 5px;
+}
+
+.bmrResult {
+	margin-top: 5px;
+}
+
+
+/********* CONTAINER **********/
+
+.container {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.burned {
+    float: left;
+    width: 475px;
+    margin-right: 50px;
+}
+
+.consumed {
+    float: left;
+    width: 475px;
+}
+
+h2 {
+	text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.burned__title { color: #28B9B5; }
+.consumed__title { color: #FF5049; }
